@@ -1,0 +1,10 @@
+from tkinter import *
+master=Tk()
+Label(master,text="First name").grid(row=0)
+Label(master,text="Last name").grid(row=1)
+entry=Entry(master,bg="powder blue",cursor="circle")
+entry2=Entry(master,bg="powder blue",cursor="circle")
+entry.grid(row=0,column=1)
+entry2.grid(row=1,column=1)
+entry.mainloop()
+entry2.mainloop()
